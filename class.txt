@@ -1,0 +1,203 @@
+package DEA;
+
+import java.io.Serializable;
+
+public class DEAClass implements Serializable {
+    
+    private String fname;
+    private String lname;
+    private String address;
+    private int phone;
+    private String email;
+    private int cardno;
+    private int exdate;
+    private int cvv;
+    private String shipAdd;
+    private String province;
+    private String postal;
+    private int itemcode;
+    private int qty;
+
+    /**
+     * @return the fname
+     */
+    public String getFname() {
+        return fname;
+    }
+
+    /**
+     * @param fname the fname to set
+     */
+    public void setFname(String fname) {
+        this.fname = fname;
+    }
+
+    /**
+     * @return the lname
+     */
+    public String getLname() {
+        return lname;
+    }
+
+    /**
+     * @param lname the lname to set
+     */
+    public void setLname(String lname) {
+        this.lname = lname;
+    }
+
+    /**
+     * @return the address
+     */
+    public String getAddress() {
+        return address;
+    }
+
+    /**
+     * @param address the address to set
+     */
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    /**
+     * @return the phone
+     */
+    public int getPhone() {
+        return phone;
+    }
+
+    /**
+     * @param phone the phone to set
+     */
+    public void setPhone(int phone) {
+        this.phone = phone;
+    }
+
+    /**
+     * @return the email
+     */
+    public String getEmail() {
+        return email;
+    }
+
+    /**
+     * @param email the email to set
+     */
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    /**
+     * @return the cardno
+     */
+    public int getCardno() {
+        return cardno;
+    }
+
+    /**
+     * @param cardno the cardno to set
+     */
+    public void setCardno(int cardno) {
+        this.cardno = cardno;
+    }
+
+    /**
+     * @return the exdate
+     */
+    public int getExdate() {
+        return exdate;
+    }
+
+    /**
+     * @param exdate the exdate to set
+     */
+    public void setExdate(int exdate) {
+        this.exdate = exdate;
+    }
+
+    /**
+     * @return the cvv
+     */
+    public int getCvv() {
+        return cvv;
+    }
+
+    /**
+     * @param cvv the cvv to set
+     */
+    public void setCvv(int cvv) {
+        this.cvv = cvv;
+    }
+
+    /**
+     * @return the shipAdd
+     */
+    public String getShipAdd() {
+        return shipAdd;
+    }
+
+    /**
+     * @param shipAdd the shipAdd to set
+     */
+    public void setShipAdd(String shipAdd) {
+        this.shipAdd = shipAdd;
+    }
+
+    /**
+     * @return the province
+     */
+    public String getProvince() {
+        return province;
+    }
+
+    /**
+     * @param province the province to set
+     */
+    public void setProvince(String province) {
+        this.province = province;
+    }
+
+    /**
+     * @return the postal
+     */
+    public String getPostal() {
+        return postal;
+    }
+
+    /**
+     * @param postal the postal to set
+     */
+    public void setPostal(String postal) {
+        this.postal = postal;
+    }
+
+    /**
+     * @return the itemcode
+     */
+    public int getItemcode() {
+        return itemcode;
+    }
+
+    /**
+     * @param itemcode the itemcode to set
+     */
+    public void setItemcode(int itemcode) {
+        this.itemcode = itemcode;
+    }
+
+    /**
+     * @return the qty
+     */
+    public int getQty() {
+        return qty;
+    }
+
+    /**
+     * @param qty the qty to set
+     */
+    public void setQty(int qty) {
+        this.qty = qty;
+    }
+    
+}

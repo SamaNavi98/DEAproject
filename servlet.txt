@@ -1,0 +1,35 @@
+protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException, ClassNotFoundException, SQLException {
+        response.setContentType("text/html;charset=UTF-8");
+        try (PrintWriter out = response.getWriter()) {
+            
+            String fname = request.getParameter("First name");
+            String lname = request.getParameter("Last name");
+            String address = request.getParameter("address");
+            int phone = Integer.parseInt(request.getParameter("phone"));     
+            String email = request.getParameter("email");
+            int cardno = Integer.parseInt(request.getParameter("Card number"));
+            int exdate = Integer.parseInt(request.getParameter("MM/YY"));
+            int cvv = Integer.parseInt(request.getParameter("CVV"));
+            String shipAdd = request.getParameter("Address");
+            String province = request.getParameter("Province");
+            String postal = request.getParameter("code");
+            //int itemcode = Integer.parseInt(request.getParameter(""));
+            int qty = Integer.parseInt(request.getParameter("Quantity"));
+            
+            if(!(fname.equals("")||lname.equals("")||address.equals("")||email.equals("")||shipAdd.equals("")||province.equals("")||postal.equals("")))
+                    {
+                       try{
+                           String driver = "";
+                           Class.forName(driver);
+                           String url = "";
+                           String sql = "Insert into user values('"+fname+"','"+lname+"','"+address+"','"+phone+"','"+email+"','"+cardno+"','"+exdate+"','"+cvv+"','"+shipAdd+"','"+province+"','"+postal+"','"+qty+"')";
+                           Connection con = DriverManager.getConnection(url,"root","");
+                           Statement st = con.createStatement();
+                           st.executeUpdate(sql);
+                           
+                           RequestDispatcher dipatcher = request.getRequestDispatcher("index.html");
+                           
+                    }catch(Exception ex){
+                        out.println(ex);
+                    }
