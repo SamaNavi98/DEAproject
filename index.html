@@ -33,7 +33,7 @@
    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
    <![endif]-->
    </head>
-   <body id="shop" class="shop_page">
+   <body id="home_page" class="home_page">
       <!-- loader -->
       <div id="preloader">
          <img class="preloader" src="images/logo.png" alt="#">
@@ -82,7 +82,7 @@
                            </button>
                            <div class="collapse navbar-collapse justify-content-md-center" id="cloapediamenu">
                               <ul class="navbar-nav">
-                                 <li class="nav-item">
+                                 <li class="nav-item active">
                                     <a class="nav-link" href="index.html">Home</a>
                                  </li>
                                  <li class="nav-item">
@@ -91,10 +91,10 @@
                                  <li class="nav-item">
                                     <a class="nav-link color-aqua-hover" href="jewellery.html">Jewellery</a>
                                  </li>
-                                 <li class="nav-item active">
+                                 <li class="nav-item">
                                      <div class="dropdown">
                                          <button class="dropbtn">
-                                    <a class="nav-link color-grey-hover nav-item active" href="shoprings.html">Shop</a>
+                                    <a class="nav-link color-grey-hover nav-item active" href="rings.html">Shop</a>
                                     </button>
                                       <div class="dropdown-content nav-link color-grey-hover dropdown-round-corner ">
                                       <a href="rings.html" class="drop-color">Rings</a>
@@ -123,28 +123,136 @@
          </div>
       </header>
       <!-- end header -->
-       <!-- inner page -->
-      <section class="innerpage_banner">
-         <div class="container">
+      <!-- slider -->
+      <section class="slider_section">
+         <div class="container-fluid">
             <div class="row">
-               <div class="col-sm-12">
-                  <div class="full">
-                     <div class="page_title">
-                        <div class="full heading_s1">
-                           <h2><span>Our Shop</span></h2>
+               <div id="main_slider" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+                  <div class="carousel-inner">
+                     <div class="carousel-item slider_inner slider1 active">
+                        <div class="container">
+                           <div class="row">
+                              <div class="slider_coint_inner">
+                                 <h3>Best<br><strong>New Collection</strong></h3>
+                                 <h4 class="font_themecolor">Loxury Jewellery</h4>
+                                 <p> We complete you Stunning accessories styled for you.<p>
+                                 
+<br>
+                                     
+                              </div>
+                           </div>
                         </div>
+                     </div>
+                     <div class="carousel-item slider_inner slider2">
+                        <div class="container">
+                           <div class="row">
+                              <div class="slider_coint_inner">
+                                 <h3>Best<br><strong>New Collection</strong></h3>
+                                 <h4 class="font_themecolor">Loxury Jewellery</h4>
+                                 <p>Lorem ipsum dolor sit amet consec tetur adipiscing elit elit at felis<br>
+                                    lacinia nec et est aptent taciti sociosqu ad litora torquent per conubia nostra</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="slider_bullets">
+                        <ol class="carousel-indicators">
+                           <li data-target="#main_slider" data-slide-to="0" class="active"><i class="fa fa-chevron-left"></i></li>
+                           <li data-target="#main_slider" data-slide-to="1"><i class="fa fa-chevron-right"></i></li>
+                        </ol>
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </section>
-      <!-- end inner page -->
+      <!-- end slider -->
+
+      <!-- about section -->
+      <section class="layout_padding section padding_bottom_0">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="full heading_s1">
+                     <h2>About</h2>
+                  </div>
+                  <div class="full">
+                     <p class="large"> We believe that accessories complete the look. Our goal is to create stunning,high quality accessories and bring them to you ! We are here for you every step of the way making sure you are matched with the perfect accessories</p>
+                  </div>
+               </div>
+               <div class="col-md-12">
+                  <div class="about_img margin_top_30  text_align_center">
+                     <img src="images/video_img.jpg" alt="#" />
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end about section -->
+
+      <!-- section --> 
+      <section class="layout_padding padding_bottom_0" style="background: #fff;">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="full heading_s1">
+                     <h2>Jewellery</h2>
+                  </div>
+                  <div class="full">
+                     <p class="large">We're committed to conflict-free environmentally conscious jewellery. We know how important eco-friendly jewellery  are to our customers, and we are here to make sure you'll feel good about your jewellery .</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row product_section">
+               <div class="col-md-4"> 
+                  <div class="full product_blog margin_top_30">
+                     <img src="images/pro1.jpg" alt="#" />
+                     <h3><span style="color: #72dd78 !important;">$100</span> Diamond ring</h3>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="full product_blog margin_top_30">
+                     <img src="images/pro2.jpg" alt="#" />
+                     <h3><span style="color: #72dd78 !important;">$100</span> Diamond ring</h3>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="full product_blog margin_top_30">
+                     <img src="images/pro3.jpg" alt="#" />
+                     <h3><span style="color: #72dd78 !important;">$100</span> Diamond ring</h3>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="full product_blog margin_top_30">
+                     <img src="images/pro3.jpg" alt="#" />
+                     <h3><span style="color: #72dd78 !important;">$100</span> Diamond ring</h3>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="full product_blog margin_top_30">
+                     <img src="images/pro4.jpg" alt="#" />
+                     <h3><span style="color: #72dd78 !important;">$100</span> Diamond ring</h3>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="full product_blog margin_top_30">
+                     <img src="images/pro5.jpg" alt="#" />
+                     <h3><span style="color: #72dd78 !important;">$100</span> Diamond ring</h3>
+                  </div>
+               </div>
+            </div>
+          </div>
+      </section>
+      <!-- end section -->
+     
       <!-- section -->
       <section class="layout_padding section padding_bottom_0">
          <div class="container">
             <div class="row">
                <div class="col-lg-12">
+                  <div class="full heading_s1">
+                     <h2>Our Shop</h2>
+                  </div>
                   <div class="full">
                      <p class="large">Wide collection of pendants, earrings, bracelets, chains & more. Delivery available. Register Online. View Size Guide. Uniquely Crafted Pieces.
 </p>
@@ -154,189 +262,81 @@
          </div>
       </section>
       <!-- end section -->
-      <!-- section -->
+       
+       <!-- section -->
       <section class="layout_padding haf_layout section">
-         <div class="container">
-           <div class="row product_section">
+         <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-11">
+                 <div class="row">
+                   <div class="container">
+                    <div class="col-md-8">
+                     <div class="full banner_section">
+                         <h3>Best <span style="color: #72dd78 !important;">Jewellery Shop</span></h3>
+                         <p>Largest jewellery collection in Sri Lanka with the highest exchange rate for old gold. Available at no:13,thibirigasyaya,Colombo 05. Call us on 0112546786. Highlights: Skilled Team Available, Using Fine Materials.
 
-               <div class="col-md-4"> 
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img01.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$100</span> Diamond Gold ring</h3>
+</p>
+                     </div>
+                    </div>
+                 </div>
+                  </div>
+                 <img class="img-responsive" src="images/bg1.jpg" alt="#" />
+              </div>
+            </div>
+         </div>
+      </section>
+      <!-- end section -->
+
+      <!-- section -->
+      <section class="layout_padding section padding_bottom_0">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="full text_align_center heading_s1">
+                     <h2 style="width: 100%;text-align: center;">Contact Us</h2>
                   </div>
                </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img02.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$120</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img03.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$100</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img04.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$90</span> Diamond Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img05.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$110</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img06.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$130</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img07.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$110</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img08.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$110</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img09.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$130</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img010.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$110</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img011.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$125</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img012.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$110</span> Diamond Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img013.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$150</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img014.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$110</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img015.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$110</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img016.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$115</span> Diamond Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img017.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$110</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img018.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$125</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img019.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$160</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img020.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$170</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img021.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$165</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img022.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$150</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img023.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$150</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img024.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$150</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img025.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$150</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img026.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$150</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img027.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$150</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img028.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$150</span> Diamond White Gold ring</h3>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="full product_blog margin_top_30">
-                     <img src="images/img029.png" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$150</span> Diamond White Gold ring</h3>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="contact_section margin_top_30">
+                     <div class="row">
+                        <div class="col-md-6"> 
+                            <div class="gold_con">
+                               <img src="images/gold_c.png" alt="#" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="form_cont">
+                               <form action="index.html">
+                                  <fieldset>
+                                     <div class="field">
+                                        <input type="text" name="name" placeholder="Name" />
+                                     </div>
+                                     <div class="field">
+                                        <input type="email" name="email" placeholder="Email" />
+                                     </div>
+                                     <div class="field">
+                                        <input type="text" name="phone" placeholder="Phone" />
+                                     </div>
+                                     <div class="field">
+                                        <textarea placeholder="Message" ></textarea>
+                                     </div>
+                                     <div class="field center">
+                                       <button>Send</button>
+                                  </fieldset>
+                               </form>
+                           </div>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
       </section>
       <!-- end section -->
+
+     
       <!-- footer -->
       <footer class="footer layout_padding">
          <div class="container">
@@ -410,4 +410,3 @@
       <script src="js/custom.js"></script>
    </body>
 </html>
-
